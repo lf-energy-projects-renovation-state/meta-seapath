@@ -20,5 +20,5 @@ IMAGE_DEPENDS = "seapath-observer-efi-image"
 # Images and files that will be included in the .swu image
 SWUPDATE_IMAGES = "seapath-observer-efi-image seapath-observer-efi-image-boot"
 
-SWUPDATE_IMAGES_FSTYPES[seapath-observer-efi-image] = ".tar.xz"
+SWUPDATE_IMAGES_FSTYPES[seapath-observer-efi-image] = ".rootfs.tar.xz"
 SWUPDATE_IMAGES_FSTYPES[seapath-observer-efi-image-boot] = ".tar.xz"
