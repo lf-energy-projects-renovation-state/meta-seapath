@@ -15,7 +15,6 @@ IMAGE_INSTALL:append = " \
     ${@bb.utils.contains('DISTRO_FEATURES', 'seapath-readonly', 'system-config-ro', '', d)} \
     net-snmp-server \
     net-snmp-client \
-    net-snmp-dev \
     net-snmp-configuration \
 "
 #add docker

@@ -23,7 +23,6 @@ IMAGE_INSTALL:append = " \
     system-upgrade \
     net-snmp-server \
     net-snmp-client \
-    net-snmp-dev \
     python3-vm-manager \
     tuna \
     irqbalance \
