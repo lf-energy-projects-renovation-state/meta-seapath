@@ -50,3 +50,5 @@ inherit ansible-ssh
 require ${@bb.utils.contains('DISTRO_FEATURES','seapath-security','','recipes-core/images/seapath-common-no-security.inc',d)}
 
 DEPENDS += "kconfig-hardened-check-native"
+PACKAGE_EXCLUDE += "*-dev"
+BAD_RECOMMENDATIONS += "*-dev"
